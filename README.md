@@ -74,6 +74,7 @@ SymptoLeaf-APK/
 - 🚀 **Performance**: Optimizado para carga rápida
 - ♿ **Accesibilidad**: Navegación por teclado y estructura semántica
 - 🎨 **Tema Verde**: Colores acordes al concepto eco-friendly de la app
+- 🧠 **Modelo ML**: ResNet9 optimizado para detección de enfermedades
 
 ## 🔧 Personalización
 
