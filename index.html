@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SymptoLeaf - Aplicación inteligente para detectar enfermedades en plantas usando IA y Machine Learning">
+    <meta name="keywords" content="plantas, enfermedades, IA, machine learning, agricultura, jardinería">
+    <meta name="author" content="SymptoLeaf Team">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="SymptoLeaf - Detección de Enfermedades en Plantas con IA">
+    <meta property="og:description" content="Diagnóstico instantáneo de enfermedades en plantas usando Machine Learning e IA Generativa">
+    <meta property="og:type" content="website">
+    
+    <title>SymptoLeaf 🌿 - Detección Inteligente de Enfermedades en Plantas</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <img src="assets/logo.png" alt="SymptoLeaf Logo" class="logo-img">
+                <span class="logo-text">SymptoLeaf</span>
+            </div>
+            <div class="nav-links">
+                <a href="#inicio" class="nav-link active">Inicio</a>
+                <a href="#caracteristicas" class="nav-link">Características</a>
+                <a href="#tecnologias" class="nav-link">Tecnologías</a>
+                <a href="#capturas" class="nav-link">Capturas</a>
+                <a href="#descarga" class="nav-link btn-nav-download">Descargar</a>
+            </div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-background">
+            <div class="hero-shape shape-1"></div>
+            <div class="hero-shape shape-2"></div>
+            <div class="hero-shape shape-3"></div>
+        </div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="badge">
+                    <i class="fas fa-sparkles"></i>
+                    <span>Powered by AI & Machine Learning</span>
+                </div>
+                <h1 class="hero-title">
+                    Cuida tus Plantas con
+                    <span class="gradient-text">Inteligencia Artificial</span>
+                </h1>
+                <p class="hero-description">
+                    Detecta enfermedades en plantas al instante usando tecnología de Machine Learning on-device 
+                    y recibe recomendaciones personalizadas con IA Generativa de Google Gemini.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">38+</div>
+                        <div class="stat-label">Enfermedades Detectables</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Funciona Offline</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number"><1s</div>
+                        <div class="stat-label">Análisis Instantáneo</div>
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#descarga" class="btn btn-primary">
+                        <i class="fab fa-android"></i>
+                        Descargar APK
+                    </a>
+                    <a href="#caracteristicas" class="btn btn-secondary">
+                        <i class="fas fa-play-circle"></i>
+                        Ver más
+                    </a>
+                </div>
+                <div class="hero-info">
+                    <i class="fas fa-info-circle"></i>
+                    <span>Requiere Android 5.0 o superior • Gratis y sin anuncios</span>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="phone-mockup">
+                    <img src="assets/app_showcase.png" alt="SymptoLeaf App Screenshot" class="app-screenshot">
+                    <div class="phone-frame"></div>
+                </div>
+                <div class="floating-element element-1">
+                    <i class="fas fa-leaf"></i>
+                </div>
+                <div class="floating-element element-2">
+                    <i class="fas fa-seedling"></i>
+                </div>
+                <div class="floating-element element-3">
+                    <i class="fas fa-brain"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="caracteristicas" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Características Principales</h2>
+                <p class="section-subtitle">
+                    Todo lo que necesitas para mantener tus plantas saludables en una sola app
+                </p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up">
+                    <div class="feature-icon">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <h3 class="feature-title">Análisis en Tiempo Real</h3>
+                    <p class="feature-description">
+                        Toma una foto y obtén resultados instantáneos usando nuestro modelo ResNet50 optimizado con ONNX Runtime.
+                    </p>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3 class="feature-title">IA Generativa Gemini</h3>
+                    <p class="feature-description">
+                        Recibe recomendaciones detalladas de tratamiento y prevención generadas por Google Gemini AI.
+                    </p>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">
+                        <i class="fas fa-wifi-slash"></i>
+                    </div>
+                    <h3 class="feature-title">Funciona Offline</h3>
+                    <p class="feature-description">
+                        Modelo de ML integrado en el dispositivo. Perfecta para zonas rurales sin conexión a internet.
+                    </p>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up">
+                    <div class="feature-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3 class="feature-title">Asistente Virtual 24/7</h3>
+                    <p class="feature-description">
+                        Chatbot inteligente para consultas sobre cuidados, plagas y tratamientos de plantas en cualquier momento.
+                    </p>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon">
+                        <i class="fas fa-globe-americas"></i>
+                    </div>
+                    <h3 class="feature-title">Multiidioma</h3>
+                    <p class="feature-description">
+                        Resultados en español con nombres científicos y comunes de enfermedades para mejor comprensión.
+                    </p>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="feature-title">Diseño Intuitivo</h3>
+                    <p class="feature-description">
+                        Interfaz moderna con Material Design 3, animaciones Lottie y navegación fluida entre secciones.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Stack Section -->
+    <section id="tecnologias" class="tech-stack">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Tecnologías de Vanguardia</h2>
+                <p class="section-subtitle">
+                    Construida con las mejores herramientas del ecosistema móvil
+                </p>
+            </div>
+
+            <div class="tech-categories">
+                <div class="tech-category" data-aos="fade-right">
+                    <h3 class="tech-category-title">
+                        <i class="fas fa-code"></i>
+                        Framework Core
+                    </h3>
+                    <div class="tech-items">
+                        <div class="tech-item">
+                            <img src="https://img.shields.io/badge/Flutter-3.9+-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter">
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://img.shields.io/badge/Dart-3.9+-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tech-category" data-aos="fade-right" data-aos-delay="100">
+                    <h3 class="tech-category-title">
+                        <i class="fas fa-robot"></i>
+                        Machine Learning & IA
+                    </h3>
+                    <div class="tech-items">
+                        <div class="tech-item">
+                            <img src="https://img.shields.io/badge/ONNX-Runtime-005CED?style=for-the-badge&logo=onnx&logoColor=white" alt="ONNX">
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://img.shields.io/badge/Google-Gemini_AI-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Gemini">
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://img.shields.io/badge/ResNet50-Deep_Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="ResNet50">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tech-category" data-aos="fade-right" data-aos-delay="200">
+                    <h3 class="tech-category-title">
+                        <i class="fas fa-layer-group"></i>
+                        Estado & Arquitectura
+                    </h3>
+                    <div class="tech-items">
+                        <div class="tech-item">
+                            <img src="https://img.shields.io/badge/Provider-State_Mgmt-DD0031?style=for-the-badge&logo=flutter&logoColor=white" alt="Provider">
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://img.shields.io/badge/Clean-Architecture-4CAF50?style=for-the-badge&logo=architecture&logoColor=white" alt="Clean Architecture">
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://img.shields.io/badge/MVC-Pattern-9C27B0?style=for-the-badge&logo=design&logoColor=white" alt="MVC">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="architecture-diagram" data-aos="zoom-in">
+                <h3 class="diagram-title">Arquitectura del Sistema</h3>
+                <div class="diagram-content">
+                    <div class="arch-layer">
+                        <div class="arch-box presentation">
+                            <i class="fas fa-desktop"></i>
+                            <span>Presentation Layer</span>
+                            <small>Views • ViewModels • Controllers</small>
+                        </div>
+                    </div>
+                    <div class="arch-arrow">↓</div>
+                    <div class="arch-layer">
+                        <div class="arch-box domain">
+                            <i class="fas fa-cube"></i>
+                            <span>Domain Layer</span>
+                            <small>Entities • Use Cases</small>
+                        </div>
+                    </div>
+                    <div class="arch-arrow">↓</div>
+                    <div class="arch-layer">
+                        <div class="arch-box data">
+                            <i class="fas fa-database"></i>
+                            <span>Data Layer</span>
+                            <small>Models • Services • Repositories</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshots Section -->
+    <section id="capturas" class="screenshots">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Explora la Aplicación</h2>
+                <p class="section-subtitle">
+                    Interfaz intuitiva diseñada para una experiencia perfecta
+                </p>
+            </div>
+
+            <div class="screenshot-showcase" data-aos="fade-up">
+                <div class="screenshot-main">
+                    <img src="assets/app_showcase.png" alt="SymptoLeaf App Interface" class="main-screenshot">
+                </div>
+                <div class="screenshot-features">
+                    <div class="screenshot-feature">
+                        <i class="fas fa-home"></i>
+                        <div>
+                            <h4>Pantalla de Inicio</h4>
+                            <p>Acceso rápido a todas las funciones principales</p>
+                        </div>
+                    </div>
+                    <div class="screenshot-feature">
+                        <i class="fas fa-images"></i>
+                        <div>
+                            <h4>Galería de Análisis</h4>
+                            <p>Historial completo de tus diagnósticos pasados</p>
+                        </div>
+                    </div>
+                    <div class="screenshot-feature">
+                        <i class="fas fa-user-circle"></i>
+                        <div>
+                            <h4>Perfil de Usuario</h4>
+                            <p>Configuración y preferencias personalizadas</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="descarga" class="download">
+        <div class="container">
+            <div class="download-card" data-aos="zoom-in">
+                <div class="download-content">
+                    <div class="download-icon">
+                        <i class="fab fa-android"></i>
+                    </div>
+                    <h2 class="download-title">¿Listo para empezar?</h2>
+                    <p class="download-description">
+                        Descarga SymptoLeaf ahora y comienza a proteger tus plantas con el poder de la inteligencia artificial. 
+                        Completamente gratis, sin anuncios y con funcionamiento offline.
+                    </p>
+                    
+                    <div class="download-info">
+                        <div class="info-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Versión 1.0.0</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Android 5.0+</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>~50 MB</span>
+                        </div>
+                    </div>
+
+                    <a href="symptoleaf.apk" class="btn btn-download" download>
+                        <i class="fab fa-android"></i>
+                        Descargar APK
+                        <span class="btn-subtitle">Gratis para Android</span>
+                    </a>
+
+                    <div class="download-note">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Descarga segura y verificada. Puede que necesites habilitar "Instalar desde fuentes desconocidas" en la configuración de Android.</span>
+                    </div>
+                </div>
+                
+                <div class="download-visual">
+                    <div class="download-circle circle-1"></div>
+                    <div class="download-circle circle-2"></div>
+                    <div class="download-circle circle-3"></div>
+                    <i class="fas fa-mobile-alt download-phone-icon"></i>
+                </div>
+            </div>
+
+            <!-- Installation Steps -->
+            <div class="installation-steps" data-aos="fade-up">
+                <h3 class="steps-title">Pasos de Instalación</h3>
+                <div class="steps-grid">
+                    <div class="step-item">
+                        <div class="step-number">1</div>
+                        <h4>Descarga el APK</h4>
+                        <p>Haz clic en el botón de descarga arriba</p>
+                    </div>
+                    <div class="step-item">
+                        <div class="step-number">2</div>
+                        <h4>Habilita Instalación</h4>
+                        <p>Permite instalar desde fuentes desconocidas</p>
+                    </div>
+                    <div class="step-item">
+                        <div class="step-number">3</div>
+                        <h4>Instala la App</h4>
+                        <p>Abre el archivo APK descargado</p>
+                    </div>
+                    <div class="step-item">
+                        <div class="step-number">4</div>
+                        <h4>¡Disfruta!</h4>
+                        <p>Empieza a diagnosticar tus plantas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="assets/logo.png" alt="SymptoLeaf Logo">
+                        <span>SymptoLeaf</span>
+                    </div>
+                    <p class="footer-description">
+                        Detecta enfermedades en plantas con inteligencia artificial. 
+                        Construido con ❤️ usando Flutter y tecnologías de ML.
+                    </p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#caracteristicas">Características</a></li>
+                        <li><a href="#tecnologias">Tecnologías</a></li>
+                        <li><a href="#descarga">Descargar</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Tecnologías</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://flutter.dev" target="_blank">Flutter</a></li>
+                        <li><a href="https://onnxruntime.ai" target="_blank">ONNX Runtime</a></li>
+                        <li><a href="https://ai.google.dev/gemini-api" target="_blank">Google Gemini</a></li>
+                        <li><a href="https://github.com" target="_blank">GitHub</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Recursos</h4>
+                    <ul class="footer-links">
+                        <li><a href="#capturas">Screenshots</a></li>
+                        <li><a href="#descarga">Documentación</a></li>
+                        <li><a href="#caracteristicas">Características</a></li>
+                        <li><a href="#tecnologias">Arquitectura</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 SymptoLeaf. Desarrollado con <i class="fas fa-heart"></i> para el cuidado de plantas.</p>
+                <div class="footer-badges">
+                    <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="MIT License">
+                    <img src="https://img.shields.io/badge/Made_with-Flutter-02569B?style=flat-square&logo=flutter" alt="Made with Flutter">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTop" class="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
